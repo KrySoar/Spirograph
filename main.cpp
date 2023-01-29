@@ -1,6 +1,6 @@
 #include <iostream>
 #include <SFML/Graphics.hpp>
-#include "params.h"
+#include "params.hpp"
 #include <cmath>
 #include "arm.hpp"
 #include "spirograph.hpp"

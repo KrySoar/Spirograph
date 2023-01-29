@@ -1,6 +1,6 @@
 #pragma once
 #include <SFML/Graphics.hpp>
-#include "params.h"
+#include "params.hpp"
 #include "arm.hpp"
 
 class Tip {
