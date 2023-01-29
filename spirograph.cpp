@@ -41,7 +41,7 @@ void Spirograph::update() {
 void Spirograph::draw(sf::RenderWindow &window) {
 
     for(Arm &arm : mArms) {
-        arm.draw(window);
+        //arm.draw(window);
     }
     mTip.draw(window);
 }

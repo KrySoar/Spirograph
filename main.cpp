@@ -47,7 +47,7 @@ void run(std::vector<std::tuple<float,float>> arms)
                 window.close();
         }
 
-        window.clear();
+        //window.clear();
         spiro.update();
         spiro.draw(window);
 
@@ -67,10 +67,10 @@ std::vector<std::tuple<float,float>> user_input()
 
     for(int i = 0; i < nbArms; i++)
     {
-        std::cout << "Length of arm " << i << " : ";
+        std::cout << "Length of arm " << i+1 << " : ";
         std::cin >> length;
 
-        std::cout << "Speed of arm " << i << " : ";
+        std::cout << "Speed of arm " << i+1 << " : ";
         std::cin >> speed;
 
         std::cout << std::endl;
