@@ -2,6 +2,8 @@
 
 A simple Spirograph made in C++ with the SFML library
 
-[image](https://user-images.githubusercontent.com/10454477/215323234-51e780ef-46e8-4c33-9d3b-080d2666c612.png)
+file:///home/kmassieux/Pictures/Screenshots/Screenshot%20from%202023-01-29%2012-31-082.png![image](https://user-images.githubusercontent.com/10454477/215323296-5fe29ff3-5fec-4948-ac89-60d2574364db.png)
 
-[image](https://user-images.githubusercontent.com/10454477/215323271-89b6ab0e-ee19-4130-ac64-c1e8cdf56b60.png)
+
+file:///home/kmassieux/Downloads/Screenshot%20from%202023-01-29%2012-28-16.png![image](https://user-images.githubusercontent.com/10454477/215323289-e1abb7e4-57f2-4b31-8233-d600cafd5b96.png)
+
