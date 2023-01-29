@@ -1,8 +1,6 @@
 #include <iostream>
 #include <SFML/Graphics.hpp>
 #include "params.hpp"
-#include <cmath>
-#include "arm.hpp"
 #include "spirograph.hpp"
 #include <vector>
 #include <tuple>

@@ -57,7 +57,7 @@ void Spirograph::write() {
     mDrawing.push_back(Tip {mTip.getSize()});
     mDrawing.back().setPosition(mTip.getPosition());
 
-    if(Tip::getCount() > 1200)
+    if(Tip::getCount() > DRAWING_FADE)
     {
         mDrawing.pop_front();
     }

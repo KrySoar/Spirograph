@@ -9,7 +9,7 @@ Tip::Tip() : Tip(ARM_WIDTH){
 
 Tip::Tip(float radius){
     mPoint.setRadius(radius);
-    mPoint.setFillColor(sf::Color::Green);
+    mPoint.setFillColor(TIP_COLOR);
     mPoint.setOrigin(sf::Vector2f(ARM_WIDTH,ARM_WIDTH));
 
     mCount++;
