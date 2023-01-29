@@ -1,6 +1,10 @@
 #include "arm.hpp"
 #include <cmath>
 
+Arm::Arm() : Arm(sf::Vector2f(0.0f,0.0f),100.0f , 0.2f) {
+
+}
+
 Arm::Arm(float length, float speed) : Arm(sf::Vector2f(0.0f,0.0f),length , speed) {
 
 }

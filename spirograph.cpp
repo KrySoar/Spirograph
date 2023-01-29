@@ -16,6 +16,9 @@ void Spirograph::add_arm(Arm arm) {
     if(mArms.size() > 1)
     {
         mArms.back().attachTo(mArms.at(mArms.size() - 2));
+    } else {
+        //Center the first arm
+        mArms.front().setPosition(sf::Vector2f(WIN_WIDTH/2.0f,WIN_HEIGHT/2.0f));
     }
 
     mTip.attachTo(mArms.back());
