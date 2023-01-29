@@ -47,7 +47,7 @@ void run(std::vector<std::tuple<float,float>> arms)
                 window.close();
         }
 
-        //window.clear();
+        window.clear();
         spiro.update();
         spiro.draw(window);
 

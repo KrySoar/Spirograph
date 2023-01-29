@@ -1,10 +1,13 @@
 #include <vector>
+#include <deque>
 #include "arm.hpp"
 #include "tip.hpp"
 
 class Spirograph {
     std::vector<Arm> mArms;
+    
     Tip mTip;
+    std::deque<Tip> mDrawing;
 
 public:
     Spirograph();
@@ -13,4 +16,5 @@ public:
     void add_arm(Arm);
     void update();
     void draw(sf::RenderWindow &);
+    void write();
 };

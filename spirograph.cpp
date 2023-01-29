@@ -36,13 +36,31 @@ void Spirograph::update() {
     }
     
     mTip.attachTo(mArms.back());
+
+    write();
 }
 
 void Spirograph::draw(sf::RenderWindow &window) {
 
     for(Arm &arm : mArms) {
-        //arm.draw(window);
+        arm.draw(window);
     }
     mTip.draw(window);
+
+    for(Tip &point : mDrawing) {
+        point.draw(window);
+    }
+}
+
+
+void Spirograph::write() {
+    mDrawing.push_back(Tip {mTip.getSize()});
+    mDrawing.back().setPosition(mTip.getPosition());
+
+    if(Tip::getCount() > 1200)
+    {
+        mDrawing.pop_front();
+    }
+
 }
 

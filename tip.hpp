@@ -7,6 +7,8 @@ class Tip {
     float mRadius;
     sf::CircleShape mPoint;
 
+    static int mCount;
+
     public:
     Tip();
     Tip(float radius);
@@ -15,4 +17,7 @@ class Tip {
     void setPosition(sf::Vector2f);
     void setSize(float tipSize);
     void draw(sf::RenderWindow &) const;
+    sf::Vector2f getPosition() const;
+    float getSize() const;
+    static int getCount();
 };
